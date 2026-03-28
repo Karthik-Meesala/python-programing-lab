@@ -1,0 +1,11 @@
+import tkinter as tk
+window = tk.Tk()
+window.title("Geometry Methods Demo")
+window.geometry("400x300")
+label1 = tk.Label(window, text="Using pack()", bg="lightblue")
+label1.pack(pady=10)
+label2 = tk.Label(window, text="Using grid()", bg="lightgreen")
+label2.pack(pady=10)
+label3 = tk.Label(window, text="Using place()", bg="lightyellow")
+label3.place(x=150, y=150) 
+window.mainloop()
